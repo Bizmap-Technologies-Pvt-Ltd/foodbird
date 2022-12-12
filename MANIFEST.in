@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include foodbird *.css
+recursive-include foodbird *.csv
+recursive-include foodbird *.html
+recursive-include foodbird *.ico
+recursive-include foodbird *.js
+recursive-include foodbird *.json
+recursive-include foodbird *.md
+recursive-include foodbird *.png
+recursive-include foodbird *.py
+recursive-include foodbird *.svg
+recursive-include foodbird *.txt
+recursive-exclude foodbird *.pyc
