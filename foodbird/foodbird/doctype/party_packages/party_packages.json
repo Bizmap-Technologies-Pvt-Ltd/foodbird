@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer_name",
+ "creation": "2023-01-09 12:43:07.664704",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "customer_name",
+  "party_package_type",
+  "package_cost",
+  "column_break_5",
+  "posting_date",
+  "party_date",
+  "dinners",
+  "food_package_template",
+  "section_break_9",
+  "food_package",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name ",
+   "unique": 1
+  },
+  {
+   "fieldname": "party_package_type",
+   "fieldtype": "Select",
+   "label": "Party Package Type",
+   "options": "\nIMFL\nFood Package"
+  },
+  {
+   "fieldname": "dinners",
+   "fieldtype": "Int",
+   "label": "Dinners"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "party_date",
+   "fieldtype": "Date",
+   "label": "Party Date"
+  },
+  {
+   "fieldname": "food_package_template",
+   "fieldtype": "Link",
+   "label": "Food Package Template",
+   "options": "Food Package"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "food_package",
+   "fieldtype": "Table",
+   "label": "Food Package",
+   "options": "Food Package"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Party Packages",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "package_cost",
+   "fieldtype": "Currency",
+   "label": "Package Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-01-09 13:03:05.717854",
+ "modified_by": "Administrator",
+ "module": "foodbird",
+ "name": "Party Packages",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
