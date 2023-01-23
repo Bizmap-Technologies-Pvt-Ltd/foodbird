@@ -13,10 +13,9 @@
  "fields": [
   {
    "fieldname": "food",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Food",
-   "options": "Item"
+   "label": "Food"
   },
   {
    "fieldname": "choice",
@@ -34,7 +33,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-01-09 12:50:49.325773",
+ "modified": "2023-01-24 00:41:26.409068",
  "modified_by": "Administrator",
  "module": "foodbird",
  "name": "Food Package",
