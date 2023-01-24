@@ -95,13 +95,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Purchase Receipt": {
+		"before_submit":"foodbird.foodbird.doctype.purchase_receipt.Attachment_validation"
+	}
+}
 
 # Scheduled Tasks
 # ---------------

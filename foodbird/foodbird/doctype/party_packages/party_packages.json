@@ -64,7 +64,7 @@
    "fieldname": "food_package_template",
    "fieldtype": "Link",
    "label": "Food Package Template",
-   "options": "Food Package"
+   "options": "Package Template"
   },
   {
    "fieldname": "section_break_9",
@@ -94,7 +94,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-01-10 15:33:12.551304",
+ "modified": "2023-01-13 18:44:22.431816",
  "modified_by": "Administrator",
  "module": "foodbird",
  "name": "Party Packages",
