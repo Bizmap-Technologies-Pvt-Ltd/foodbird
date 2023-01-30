@@ -8,8 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "package_name",
-  "food",
-  "cost"
+  "package_menu"
  ],
  "fields": [
   {
@@ -19,19 +18,15 @@
    "unique": 1
   },
   {
-   "fieldname": "food",
-   "fieldtype": "Data",
-   "label": "Food"
-  },
-  {
-   "fieldname": "cost",
-   "fieldtype": "Float",
-   "label": "Cost"
+   "fieldname": "package_menu",
+   "fieldtype": "Table",
+   "label": "Package Menu",
+   "options": "Package Template Menu"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-13 18:26:58.894354",
+ "modified": "2023-01-28 15:12:17.340864",
  "modified_by": "Administrator",
  "module": "foodbird",
  "name": "Package Template",
